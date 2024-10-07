@@ -4,7 +4,7 @@ import Terminal from '../terminal/Terminal.astro';
 import './skills-on-terminal.css';
 ---
 
-<Terminal nombre="jhonDoe">
+<Terminal class:list={'w-full'} nombre="alexRincon">
 	<div class="terminal__skills">
 		<h2>Mis habilidades</h2>
 		<div class="terminal__skills__container">
@@ -14,22 +14,42 @@ import './skills-on-terminal.css';
 				name="Bootstrap"
 			/>
 			<TerminalIcon
-				src="/assets/angular.svg"
-				color="#FF4747"
-				name="Angular"
+				src="/assets/tailwind.svg"
+				color="#46e6ef "
+				name="Tailwind CSS"
 			/>
 			<TerminalIcon
 				src="/assets/react.svg"
 				color="#00D1FF"
 				name="React"
 			/>
-			<TerminalIcon src="/assets/bun.svg" color="#F3CBC2" name="Bun" />
+			<TerminalIcon src="/assets/javascript.svg" color="#edff57 " name="Java Script" />
 			<TerminalIcon src="/assets/css.svg" color="#00A3FF" name="CSS" />
 			<TerminalIcon
-				src="/assets/electron.svg"
-				color="#3F75FF"
-				name="Electron"
+				src="/assets/vue.svg"
+				color="#0b8c07 "
+				name="VUE"
 			/>
+			<TerminalIcon
+				src="/assets/nodejs.svg"
+				color="#1ac914"
+				name="Node JS"
+			/>
+			<TerminalIcon
+				src="/assets/Astro.svg"
+				color="#FFF"
+				name="Astro"
+			/>
+			<TerminalIcon
+				src="/assets/npm.svg"
+				color="#ff3e07"
+				name="npm"
+			/>
+			<TerminalIcon
+			src="/assets/mongodb.svg"
+			color="#69ff64"
+			name="Mongo DB"
+		/>
 		</div>
 	</div>
 </Terminal>
